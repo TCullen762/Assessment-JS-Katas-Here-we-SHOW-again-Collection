@@ -169,6 +169,20 @@ Display the sum of all the elements in sampleArray.
 Display the smallest element in sampleArray.
 Display the largest element in sampleArray.*/
 
+//Kata12
+//This is Dylans code I do not understand it YET***
+let kataTwelve = []
+sampleArray.forEach(value => {
+   if(value % 2 == 0)
+      kataTwelve.push(value)
+})
+
+let  kataTwelve_heading = document.createElement('h3')//create it 
+let   kataTwelve_text = document.createTextNode("Kata 12: "+ ' '+    sampleArray)//fill it
+kataTwelve_heading.appendChild( kataTwelve_text)
+document.body.append(kataTwelve_heading)
+
+
 //Kata 13
 
 
@@ -191,13 +205,7 @@ let   kataFourTeen_text = document.createTextNode("Kata 14: "+ ' '+    kataFourt
 kataFourTeen_heading.appendChild(kataFourTeen_text)
 document.body.append(kataFourTeen_heading)
 
-//let  kataFifteen = 1
- 
-/*for(let i = 1; i <= 20; i++ ){
 
-kataFifteen += i*/
-
-    //console.log(kataFifteen)
 
     let kataFifteen = 0
 for(let i = 1; i <= 20; i++) {
